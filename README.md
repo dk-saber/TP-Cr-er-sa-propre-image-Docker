@@ -146,7 +146,7 @@ Successfully tagged flask-webapp:latest
 Une fois l'image construite, l'application peut être lancée avec :
 
 ```bash
-docker run -it -p 5000:5000 flask-webapp
+docker run -dti -p 5000:5000 flask-webapp
 ```
 
 Le paramètre `-p 5000:5000` lie le port 5000 du conteneur au port 5000 de la machine hôte.
