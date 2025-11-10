@@ -217,13 +217,13 @@ Saisir les identifiants Docker Hub lorsque demandé.
 ### Tagage de l'image
 
 ```bash
-docker tag my-simple-webapp dk-saber/flask-webapp:latest
+docker tag flask-webapp saberdk/flask-webapp:1.0
 ```
 
 ### Publication de l'image
 
 ```bash
-docker push dk-saber/flask-webapp:latest
+docker push saberdk/flask-webapp:1.0
 ```
 
 Une fois le processus terminé, l'image sera visible dans l'espace Docker Hub : `https://hub.docker.com/u/dk-saber`
@@ -235,7 +235,7 @@ Une fois le processus terminé, l'image sera visible dans l'espace Docker Hub : 
 N'importe quel utilisateur peut désormais exécuter l'application en une seule commande :
 
 ```bash
-docker run -p 5000:5000 dk-saber/flask-webapp:latest
+docker run -p 5000:5000 saberdk/flask-webapp:latest
 ```
 
 ---
