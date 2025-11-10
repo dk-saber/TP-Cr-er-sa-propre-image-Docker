@@ -235,7 +235,7 @@ Une fois le processus terminé, l'image sera visible dans l'espace Docker Hub : 
 N'importe quel utilisateur peut désormais exécuter l'application en une seule commande :
 
 ```bash
-docker run -p 5000:5000 saberdk/flask-webapp:latest
+docker run -p 5000:5000 saberdk/flask-webapp:1.0
 ```
 
 ---
